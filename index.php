@@ -1,3 +1,4 @@
+<?php
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, 'HTTP_') === 0) {
         $chunks = explode('_', $key);
